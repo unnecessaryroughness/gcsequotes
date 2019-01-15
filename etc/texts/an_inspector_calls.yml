@@ -10,7 +10,7 @@ text:
     - quote: "I speak as a hard headed business man"
       who: "Mr. Birling"
       style: "often repeat"
-      prompt: "that shows his pride in his hard earned success"
+      prompt: "to show his pride in his hard earned success"
     - quote: "You're not the kind of father a chap could go to when he's in trouble"
       who: "Eric"
       to: "Mr. Birling"
