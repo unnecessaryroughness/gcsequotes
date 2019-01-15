@@ -1,0 +1,17 @@
+---
+text: 
+  title: "An Inspector Calls"
+  quotes:
+    - quote: "You're squiffy"
+      who: "Sheila"
+      to: "Eric"
+      prompt: "to imply Eric has had too much to drink"
+      location: "Act 1" 
+    - quote: "I speak as a hard headed business man"
+      who: "Mr. Birling"
+      style: "often repeat"
+      prompt: "to show his pride in his hard earned success"
+    - quote: "You're not the kind of father a chap could go to when he's in trouble"
+      who: "Eric"
+      to: "Mr. Birling"
+      prompt: "that shows the weak relationship between father and son"

@@ -1,14 +1,13 @@
 'use strict';
 
-module.exports.hello = async (event, context) => {
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: 'Go Serverless v1.0! Your function executed successfully!',
-      input: event,
-    }),
-  };
+const Alexa = require('ask-sdk')
+const skillBuilder = Alexa.SkillBuilders.standard()
 
-  // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-  // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
-};
+
+exports.handler = skillBuilder
+  .addRequestHandlers(
+    require('./lib/handlers/quizhandler'),
+    require('./lib/handlers/unhandledhandler')
+    )
+    .addErrorHandlers(require('./lib/handlers/errorhandler'))
+  .lambda()
