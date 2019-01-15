@@ -6,7 +6,8 @@ const skillBuilder = Alexa.SkillBuilders.standard()
 
 exports.handler = skillBuilder
   .addRequestHandlers(
-    QuizHandler = require('./lib/handlers/quizhandler')
-  )
-  .addErrorHandlers(ErrorHandler)
+    require('./lib/handlers/quizhandler'),
+    require('./lib/handlers/unhandledhandler')
+    )
+    .addErrorHandlers(require('./lib/handlers/errorhandler'))
   .lambda()

@@ -1,1 +1,29 @@
 ---
+config:
+  texts:
+    - file: 'an_inspector_calls' 
+      name: 'An Inspector Calls'
+    - file: 'lord_of_the_flies'
+      name: 'Lord of the Flies'
+    - file: 'a_christmas_carol'
+      name: 'A Christmas Carol'
+    - file: 'romeo_and_juliet'
+      name: 'Romeo and Juliet'
+  text_groups: 
+    - name: 'everything'
+      altnames: 
+        - 'anything'
+      texts: 
+        - 'an_inspector_calls'
+        - 'lord_of_the_flies'
+        - 'a_christmas_carol'
+        - 'romeo_and_juliet'
+    - name: 'all books'
+      altnames: 
+        - 'any books'
+        - 'any book'
+      texts: 
+        - 'an_inspector_calls'
+        - 'lord_of_the_flies'
+        - 'a_christmas_carol'
+        - 'romeo_and_juliet'

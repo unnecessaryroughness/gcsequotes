@@ -57,10 +57,10 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  backtimer:
+  gcsequotes:
     handler: index.handler
     events:
-      - alexaSkill: amzn1.ask.skill.?????????????????????
+      - alexaSkill: amzn1.ask.skill.5a87f832-60d4-49c6-a793-4d706264aa26
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
