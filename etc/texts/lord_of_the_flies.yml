@@ -1,18 +1,20 @@
 ---
-quotes:
-  - quote: "Sucks to your ass-mar!"
-    who: "Ralph"
-    to: "Piggy"
-    style: "exclaim"
-    prompt: "about piggy's health"
-    location: "throughout the book"
-  - quote: "Kill the pig. Cut her throat. Spill her blood."
-    who: "The hunters"
-    style: "chant"
-    prompt: "about hunting pigs"
-    location: "throughout the book"
-  - quote: “The skull regarded Ralph like one who knows all the answers but won't tell.”
-    who: "The narrator"
-    prompt: "about the skull's perception of Ralph"
-    location: "chapter five"
+text: 
+  title: "Lord of the Flies"
+  quotes:
+    - quote: "Sucks to your ass-mar!"
+      who: "Ralph"
+      to: "Piggy"
+      style: "exclaim"
+      prompt: "about piggy's health"
+      location: "throughout the book"
+    - quote: "Kill the pig. Cut her throat. Spill her blood."
+      who: "The hunters"
+      style: "chant"
+      prompt: "about hunting pigs"
+      location: "throughout the book"
+    - quote: “The skull regarded Ralph like one who knows all the answers but won't tell.”
+      who: "The narrator"
+      prompt: "about the skull's perception of Ralph"
+      location: "chapter five"
   
