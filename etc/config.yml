@@ -2,13 +2,13 @@
 config:
   texts:
     - file: 'an_inspector_calls' 
-      name: 'An Inspector Calls'
+      name: 'an inspector calls'
     - file: 'lord_of_the_flies'
-      name: 'Lord of the Flies'
+      name: 'lord of the flies'
     - file: 'a_christmas_carol'
-      name: 'A Christmas Carol'
+      name: 'a christmas carol'
     - file: 'romeo_and_juliet'
-      name: 'Romeo and Juliet'
+      name: 'romeo and juliet'
   text_groups: 
     - name: 'everything'
       altnames: 
