@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "ask-sdk": "^2.3.0",
+    "jmespath": "^0.15.0",
     "js-yaml": "^3.12.1",
     "serverless": "^1.36.1"
   },

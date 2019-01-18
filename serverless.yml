@@ -22,10 +22,7 @@ provider:
   runtime: nodejs8.10
   profile: alexa
   region: eu-west-1
-
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
+  stage: dev
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:

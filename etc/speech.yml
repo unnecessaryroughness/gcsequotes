@@ -1,0 +1,7 @@
+---
+speech_patterns:
+  salutations:
+    welcome: "Welcome to GCSE Quotes. "
+    pick_a_quiz: "What would you like me to test you on? Say 'test me on' followed by a book or poem name, or a group of texts, or say 'test me on everything'. "
+    goodbye: "Thank you for using GCSE Quotes. Goodbye. "
+    question_prep: "I have prepared questions on '{{var.0}}' for you. "
