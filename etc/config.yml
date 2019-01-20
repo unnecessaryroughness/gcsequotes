@@ -1,5 +1,6 @@
 ---
 config:
+  skill_name: 'GCSE Quotes'
   texts:
     - file: 'an_inspector_calls' 
       name: 'an inspector calls'
