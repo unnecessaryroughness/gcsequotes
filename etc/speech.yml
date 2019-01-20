@@ -1,7 +1,10 @@
 ---
 speech_patterns:
   salutations:
-    welcome: "Welcome to GCSE Quotes. "
-    pick_a_quiz: "What would you like me to test you on? Say 'test me on' followed by a book or poem name, or a group of texts, or say 'test me on everything'. "
+    welcome: "Welcome to GCSE Quotes. <break time='1s'/> I will ask you a series of questions about quotes from GCSE texts. After each question I will pause and wait for you to tell me the full quote. If you get it right, you get a point, and I will ask you another question. When you have had enough, just tell me to stop. <break time='1s'/> "
+    pick_a_quiz: "What would you like me to test you on? Say 'test me on', followed by a book or poem name, or a group of texts, or say 'test me on everything'. "
     goodbye: "Thank you for using GCSE Quotes. Goodbye. "
-    question_prep: "I have prepared questions on '{{var.0}}' for you. "
+    question_prep: "I have prepared {{var.0}} questions for you on '{{var.1}}'. "
+  errors: 
+    found_no_questions: "I couldn't find any questions for '{{var.0}}'. Try asking for another text. "
+  
