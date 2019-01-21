@@ -6,7 +6,10 @@ speech_patterns:
     goodbye: "Thank you for using GCSE Quotes. Goodbye. "
   setup:
     question_prep: "I have prepared {{var.0}} questions for you on '{{var.1}}'. "
-    which_game_type: "Would you like to play a <emphasis level='strong'>'what'</emphasis> game, a <emphasis level='strong'>'who'</emphasis> game, or a <emphasis level='strong'>'why'</emphasis> game? "
+    which_game_type: "Would you like to play a <emphasis level='moderate'>'what'</emphasis> game, a <emphasis level='strong'>'who'</emphasis> game, or a <emphasis level='strong'>'why'</emphasis> game? "
+  gameplay:
+    first_question: "<p>Here is your first question: </p>"
   errors: 
     found_no_questions: "I couldn't find any questions for '{{var.0}}'. Try asking for another text. "
+    www_out_of_context: "You can't switch game types right now. If you say 'stop' you can end this game and then start another one. "
   
