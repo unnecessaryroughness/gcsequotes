@@ -9,7 +9,14 @@ speech_patterns:
     which_game_type: "Would you like to play a <emphasis level='moderate'>'what'</emphasis> game, a <emphasis level='strong'>'who'</emphasis> game, or a <emphasis level='strong'>'why'</emphasis> game? "
   gameplay:
     first_question: "<p>Here is your first question: </p>"
+    next_question: "<p>Here is your next question: </p>"
+    did_you_get_it_right: "<p>Did you get it right? </p>"
+    congratulations: "<p>Congratulations! You earn an extra point! </p>"
+    bad_luck: "<p>oh, bad luck! No points this time. </p>"
+    end_game: "<p>There are no more questions. That's the end of the game. You scored {{var.0}} points from {{var.1}} questions</p>"
   errors: 
     found_no_questions: "I couldn't find any questions for '{{var.0}}'. Try asking for another text. "
     www_out_of_context: "You can't switch game types right now. If you say 'stop' you can end this game and then start another one. "
+    yes_out_of_context: "Sorry, I don't understand what you are saying 'Yes' in response to. Try asking me something else. "
+    no_out_of_context: "Sorry, I don't understand what you are saying 'No' in response to. Try asking me something else. "
   
