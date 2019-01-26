@@ -18,6 +18,7 @@ speech_patterns:
     stop_game: "<p>Ok, let's finish the quiz there. You scored {{var.0}} point{{var.1}} from {{var.2}} questions. </p>"
     end_game: "<p>There are no more questions. That's the end of the game. You scored {{var.0}} point{{var.1}} from {{var.2}} questions. </p>"
     restart_game: "<p>Ok, let's restart the game.</p>"
+    restart_or_stop: "<p>To play again, say 'restart'. To exit, say 'stop'.</p>"
   errors: 
     found_no_questions: "I couldn't find any questions for '{{var.0}}'. Try asking for another text. "
     www_out_of_context: "You can't switch game types right now. If you say 'stop' you can end this game and then start another one. "
