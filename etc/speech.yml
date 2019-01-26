@@ -25,3 +25,4 @@ speech_patterns:
     yes_out_of_context: "Sorry, I don't understand what you are saying 'Yes' in response to. Try asking me something else. "
     no_out_of_context: "Sorry, I don't understand what you are saying 'No' in response to. Try asking me something else. "
     repeat_out_of_context: "Sorry, I can only repeat a quiz question before you give me your answer. "
+    unhandled: "Sorry, I didn't understand that. "
