@@ -1,22 +1,26 @@
 ---
 speech_patterns:
   salutations:
-    welcome: "Welcome to GCSE Quotes. <break time='1s'/> I will ask you a series of questions about quotes from GCSE texts. After each question I will pause and wait for you to tell me the full quote. If you get it right, you get a point, and I will ask you another question. When you have had enough, just tell me to stop. <break time='1s'/> "
+    welcome: "<p>Welcome to GCSE Quotes.</p><p>If you would like instructions, say 'Help'. </p>"
+    help: "<p>I will ask you a series of questions about quotes from GCSE texts. After each question I will pause and wait for you to tell me the full quote. If you get it right, you get a point, and I will ask you another question. When you have had enough, just tell me to stop. </p>"
     pick_a_quiz: "What would you like me to test you on? Say 'test me on', followed by a book or poem name, or a group of texts, or say 'test me on everything'. "
     goodbye: "Thank you for using GCSE Quotes. Goodbye. "
   setup:
     question_prep: "I have prepared {{var.0}} questions for you on '{{var.1}}'. "
-    which_game_type: "Would you like to play a <emphasis level='moderate'>'what'</emphasis> game, a <emphasis level='strong'>'who'</emphasis> game, or a <emphasis level='strong'>'why'</emphasis> game? "
+    which_game_type: "Would you like to play a <emphasis level='moderate'>'what'</emphasis> game, a <emphasis level='strong'>'who'</emphasis> game, or a <emphasis level='moderate'>'why'</emphasis> game? "
   gameplay:
     first_question: "<p>Here is your first question: </p>"
     next_question: "<p>Here is your next question: </p>"
     did_you_get_it_right: "<p>Did you get it right? </p>"
     congratulations: "<p>Congratulations! You earn an extra point! </p>"
-    bad_luck: "<p>oh, bad luck! No points this time. </p>"
-    end_game: "<p>There are no more questions. That's the end of the game. You scored {{var.0}} points from {{var.1}} questions</p>"
+    bad_luck: "<p>Oh, bad luck! No points this time. </p>"
+    repeat_question: "<p>I'll repeat that for you. </p>"
+    stop_game: "<p>Ok, let's finish the quiz there. You scored {{var.0}} point{{var.1}} from {{var.2}} questions. </p>"
+    end_game: "<p>There are no more questions. That's the end of the game. You scored {{var.0}} point{{var.1}} from {{var.2}} questions. </p>"
+    restart_game: "<p>Ok, let's restart the game.</p>"
   errors: 
     found_no_questions: "I couldn't find any questions for '{{var.0}}'. Try asking for another text. "
     www_out_of_context: "You can't switch game types right now. If you say 'stop' you can end this game and then start another one. "
     yes_out_of_context: "Sorry, I don't understand what you are saying 'Yes' in response to. Try asking me something else. "
     no_out_of_context: "Sorry, I don't understand what you are saying 'No' in response to. Try asking me something else. "
-  
+    repeat_out_of_context: "Sorry, I can only repeat a quiz question before you give me your answer. "

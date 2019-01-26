@@ -10,7 +10,12 @@ exports.handler = skillBuilder
     require('./lib/handlers/whatwhowhyhandler'),
     require('./lib/handlers/yeshandler'),
     require('./lib/handlers/nohandler'),
-    require('./lib/handlers/unhandledhandler')
-    )
-    .addErrorHandlers(require('./lib/handlers/errorhandler'))
+    require('./lib/handlers/stophandler'),
+    require('./lib/handlers/repeathandler'),
+    require('./lib/handlers/helphandler'),
+    require('./lib/handlers/restarthandler'),
+    require('./lib/handlers/sessionendedhandler'),
+    require('./lib/handlers/unhandledhandler')  
+  )
+  .addErrorHandlers(require('./lib/handlers/errorhandler'))
   .lambda()
