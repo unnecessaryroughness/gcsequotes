@@ -22,7 +22,7 @@ provider:
   runtime: nodejs8.10
   profile: alexa
   region: eu-west-1
-  stage: dev
+  stage: prd
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
