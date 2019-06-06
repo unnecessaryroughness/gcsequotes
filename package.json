@@ -9,9 +9,9 @@
   "dependencies": {
     "ask-sdk": "^2.3.0",
     "jmespath": "^0.15.0",
-    "js-yaml": "^3.12.1",
+    "js-yaml": "^3.13.1",
     "random-int": "^1.0.0",
-    "serverless": "^1.36.3"
+    "serverless": "^1.44.1"
   },
   "devDependencies": {},
   "scripts": {
